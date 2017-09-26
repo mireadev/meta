@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+}
+
+/* .container{
+	color: red;
+}
+
+#first-id{
+	color: blue;
+} */
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+div{
+	/*color: yellow;*/
+	color: #1f6b97;
+}
+
+.container div{
+	color: gray;
+}
+.first {
+	/*color: #000000;*/
+	color: rgba(00,00,00,0.7);
+	font-size: 18px;
+	text-decoration: none;
+
+}
+
+.text{
+	
+}
+
+/* .paragraph{
+	display: block;
+
+	display: inline;
+
+	display: inline-block;
+
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 0;
+
+	 margin: 20px 15px 0 15px; 
+
+	margin: 10px 15px;
+
+	margin: 15px;
+
+	border: 2px solid lightgreen;
+
+	padding: 15px;
+} */
+
+
+.paragraph {
+	display: block;
+	float: left;
+	width: 14px;
+}
+
+/* .after:after {
+	content: 'After';
+	display: inline-block;
+	color: red;
+}
+
+.after:before {
+	content: 'before';
+	display: inline-block;
+	color: red;
+} */
+
+.paragraph:hover {
+	text-decoration: underline;
+}
+
+.link:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+
+.link {
+	color: green;
+	text-decoration: none;
+}
+
+.list li:first-child {
+	color: red;
+}
+
+.list li:last-child {
+	color: blue;
+}
+
+.list li:nth-child(even)
+{
+	color: green;
+}
+
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
